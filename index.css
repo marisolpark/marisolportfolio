@@ -1,0 +1,185 @@
+/* General */
+h1{
+    font-family: supermercado one, cursiva; 
+    font-size: 450%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h3{
+    font-family: supermercado one, cursiva; 
+    font-size: 200%;
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    animation: smallBig 1s infinite;
+}
+
+@keyframes smallBig {
+    25%{
+        font-size: 110%;
+        color: rgb(244, 188, 48);
+        text-decoration-line: line-through;
+    }
+    50%{
+        font-size: 150%;
+        color: rgb(244, 188, 48);
+        text-decoration-line: line-through;
+    }
+    75%{
+        font-size: 110%;
+        color: rgb(244, 188, 48);
+        text-decoration-line: line-through;
+    }
+    100%{
+        font-size: 100%;
+        color: rgb(244, 188, 48);
+        text-decoration-line: line-through;
+    }
+}
+
+
+
+/* index page */
+.indexbg{
+    background: linear-gradient(rgb(255, 253, 146), rgb(213, 244, 77), rgb(91, 195, 91));
+}
+
+.plantimg{
+    width: 30%;
+    border-radius: 20em;
+}
+.plantContainer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+/* illustrator page */
+.illustratorbg{
+    background: linear-gradient(rgb(255, 144, 218), rgb(158, 221, 255));
+}
+
+.illustrationsCont{
+    display: flex;
+    flex-direction: column;
+}
+.illuSubTitle{
+    font-family: supermercado one, cursiva; 
+    font-size: 200%;
+    text-decoration-line: underline;
+    text-align: center;
+    padding-top:20px;
+}
+.illuDivPosition{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+    /* flex-direction: column; */
+}
+
+.characters{
+    display: flex;
+    width: 50%;
+}
+.machine{
+    width: 50%;
+}
+.stickers{
+    width: 25%;
+}
+
+
+/* Photoshop page */
+.photoshopbg{
+    background: linear-gradient(rgb(137, 142, 232), rgb(237, 224, 83));
+}
+
+.photoImgPosition{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.photoImg1{
+    width: 70%;
+}
+.photoImg2{
+    width: 70%;
+}
+
+.photoSubTitle{
+    font-family: supermercado one, cursiva; 
+    font-size: 200%;
+    text-decoration-line: underline;
+    text-align: center;
+    padding-top:30px;
+}
+
+
+/* InDesign Projects */
+.inDesignbg{
+    background: linear-gradient(rgb(239, 74, 74), rgb(95, 248, 75));
+}
+
+.photoSubTitle{
+    font-family: supermercado one, cursiva; 
+    font-size: 200%;
+    text-decoration-line: underline;
+    text-align: center;
+    padding-top:20px;
+}
+
+.freedgeImg{
+    width: 35%;
+}
+
+.buissnesCards{
+    width: 35%;
+    padding-bottom: 30px;
+}
+
+.inPosition{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+
+/* Video page */
+.videobg{
+    background: linear-gradient(rgb(129, 31, 204), rgb(236, 242, 50));
+}
+.vidSubTitle{
+    font-family: supermercado one, cursiva; 
+    font-size: 200%;
+    text-decoration-line: underline;
+    text-align: center;
+    padding-top:20px;
+}
+
+.vidSize{
+    width: 700px;
+    height: 400px;
+    
+}
+
+.vidPosition{
+    display: flex;
+    justify-content: center;
+}
+
+.vidSubSubTitle{
+    font-family: supermercado one, cursiva; 
+    font-size: 100%;
+    text-decoration-line: underline;
+    text-align: center;
+    padding-top:20px;
+}
